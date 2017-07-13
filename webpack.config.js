@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 module.exports = {
   // This is the entry point or start of our react applicaton
-  entry: "./app/js/app.js",
+  entry: "./app/app.js",
 
   // The plain compiled JavaScript will be output into this file
   output: {

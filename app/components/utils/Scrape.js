@@ -1,5 +1,5 @@
 var axios = require('axios');
-var cheerio = require('cheerio');
+//var cheerio = require('cheerio');
 var request = require('request');
 
 
@@ -43,4 +43,4 @@ var Scrape = {
 		return axios.put('/api/note', {id: id});
 	}
 }
-export default scrape;
+export default Scrape;
